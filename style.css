@@ -27,6 +27,7 @@ h3{
  min-height: 100vh;
  background-color: #f5f7fa;
  padding: 30px;
+ overflow: hidden;
 }
 .inner-wrap{
     max-width: 1200px;
@@ -59,7 +60,7 @@ h3{
     flex-wrap: wrap;
     gap: 10px;
     margin: 30px auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .transaction-control .actions, .transaction-control .stats{
